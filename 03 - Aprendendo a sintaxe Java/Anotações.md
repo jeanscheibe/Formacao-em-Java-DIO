@@ -141,8 +141,88 @@ com.hypertch.notification.model
 
 Exemplo, Jean quer organizar seua materiais de estudo
 
+<!-- por tema -->
+
 edu.jean.tema.logica
 edu.jean.tema.controledefluxo
 
 ou
+
+<!-- por periodo -->
+
 edu.jean.primeirasemana
+edu.jean.segundasemana
+
+<!-- dentro da pasta src criar uma pasta e mover o arquivo dentro dela -->
+
+<!-- Será necessário criar uma classe package dentro do projeto, agora que ele não está mais dentro da pasta src -->
+
+<!-- Exercício será realizado no projeto boletim estudantil -->
+
+Isso tudo dará um erro, já que o diretório não foi criado da forma correta
+
+Como criar um pacote no VS Code
+
+Cria uma nova pasta e chama edu
+Dentro desta cria uma nova pasta chamada jean
+Dentro desta cria uma novapasta chamada primeira semana
+
+7 ----- Anatomia das classes 6 -----
+
+Java Beans
+
+Sugestões de nomenclatura em Java
+
+Sempre no singular
+Usar sempre o mesmo idioma dentro do código
+
+    Exemplos do que NÃO usar
+
+        double salMedio - deveria ser salarioMedio
+        String emails - deixar no singular
+        Stryng myName - mistura de idiomas dentro do mesmo código
+
+Pode-se usar a variável com plural, caso seja um array
+
+Métodos
+
+Os métodos deverão sernomeados como verbos
+
+    exemplo
+
+        somar() {}
+
+        abrirXonexao() {}
+
+        concluirProcessamento() {}
+
+        findById() {}
+
+8 ----- Tipos e variáveis 1 -----
+
+Objetivo: Explorar os tipos de dados e sua aplicabilidade
+
+Numéwricos inteiros e decimais
+Tipos lógicos
+Caracteres
+Objetos
+Diferença entre variável e constante
+
+9 ----- Tipos e variáveis 2 -----
+
+Tipos primitivos
+
+int, byte, short, long, float, double, boolean e char
+
+informações sobre os tipos no gitbook
+
+11 ----- Tipos e variáveis 4 -----
+
+constantes - Não podem ser alteradas depois de declaradas
+deve ser declaradas em caixa alta
+
+Para escrever uma constante em Java usamos o final
+
+exemplo
+
+final double VALOR_DE_PI = 3.14;
