@@ -39,3 +39,17 @@ Servem para incrementar, decrementar, inverter valores e numéricos e booleanos.
 (++) - Incremento de valor
 (--) - Decremento de valor
 (!) - Negação
+
+----- operadores 6 -----
+
+== quando desejamos verificar igualdade entre duas variáveis
+!= quando desejamos verificar se uma variável é diferente da outra
+
+> quando desejamos verificar se uma variável é maior que a outra
+> = maior igual
+> < menor
+> <= menor igual
+
+----- operadores 7 -----
+
+Operadores lógicos - tabela verdade
